@@ -30,9 +30,14 @@ a {
     color: var(--clr-accent);
 }
 
-li {
+ul li {
     list-style: none;
     padding: 5px 20px;
+}
+
+ol {
+    width: fit-content;
+    margin: 0 auto;
 }
 
 .banner {
