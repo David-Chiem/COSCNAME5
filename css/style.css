@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto&display=swap');
 
 :root {
-    --clr-accent: #c6c6c6;
+    --clr-accent: #e6e6e6;
     --clr-dark: #2d2d2d;
 
     --fnt-main: 'Roboto', sans-serif;
@@ -67,4 +67,24 @@ nav a:hover {
 }
 .container {
     padding: 2px 16px;
+}
+
+span {
+    display: block;
+    width: 50%;
+    margin-bottom: 5em;
+    text-align: justify;
+}
+
+.right-aligned {
+    transform: translateX(100%);
+}
+
+section {
+    margin: 2em;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2rem;
 }
