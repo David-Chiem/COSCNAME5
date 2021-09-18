@@ -4,6 +4,7 @@
     --clr-accent: #e6e6e6;
     --clr-dark: #2d2d2d;
     --clr-discrete: #D3FBD8;
+    --clr-shadow: rgba(0,0,0,0.2);
 
     --fnt-main: 'Roboto', sans-serif;
     --fnt-accent: 'Lobster', cursive;
@@ -18,7 +19,7 @@ body{
 }
 
 b {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }
 
 h1 {
@@ -73,14 +74,14 @@ nav a:focus {
     margin-top: 5rem;
     margin-left: 1rem;
     display: inline-block;
-    box-shadow: 0 var(--offset-y) var(--blur-radius) 0 rgba(0,0,0,0.2);
+    box-shadow: 0 var(--offset-y) var(--blur-radius) 0 var(--clr-shadow);
     transition: 0.3s;
     border-radius: 0.3rem; /* approx 5px rounded corners */
     width: var(--card-width);
   }
 
 .card:hover {
-  box-shadow: 0 calc(8*var(--offset-y)) calc(2*var(--blur-radius)) 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 calc(8*var(--offset-y)) var(--blur-radius) 0 var(--clr-discrete);
 }
 
 .card img {
@@ -88,7 +89,7 @@ nav a:focus {
     width: var(--card-width);
 }
 .container {
-    padding: 2px 16px;
+    padding: 0.125rem 1rem;
 }
 
 section {
@@ -96,7 +97,7 @@ section {
 }
 
 footer {
-    padding-top: 50px;
+    padding-top: 3rem;
     opacity: 0.5;
 }
 
@@ -106,7 +107,7 @@ footer {
     position: absolute;
     background-color: var(--clr-accent);
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px 0px var(--clr-shadow);
     z-index: 1;
 }
   
@@ -114,7 +115,7 @@ footer {
     font-size: 1.15rem;
     float: none;
     color: var(--clr-dark);
-    padding: 12px 16px;
+    padding: 0.75rem 1rem;
     text-decoration: none;
     display: block;
     text-align: left;
@@ -128,4 +129,8 @@ footer {
   
 .dropdown:hover .dropdown-content {
     display: block;
+}
+
+.project-idea li {
+    list-style: circle;
 }
