@@ -134,3 +134,12 @@ footer {
 .project-idea li {
     list-style: circle;
 }
+
+.industry-data li,
+.industry-data ol {
+    padding-bottom: 0.5rem;
+}
+
+.industry-data img {
+    border-radius: 0.3rem;
+}
