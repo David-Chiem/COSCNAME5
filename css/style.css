@@ -140,6 +140,41 @@ footer {
     padding-bottom: 0.5rem;
 }
 
+.dash li {
+    list-style: "-";
+}
+
 .industry-data img {
     border-radius: 0.3rem;
+}
+
+cite a{
+    font-size: 0.8rem;
+    text-decoration: none;
+}
+tr {
+    color: var(--clr-dark);
+}
+td {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+table {
+    margin: auto;
+    border-spacing: 0;
+    border: 0.5rem double;
+    width: 75%;
+}
+
+th {
+    width: 8rem;
+    border-right: 0.2rem dashed;
+}
+
+tr:nth-child(even) {
+    background-color: var(--clr-discrete);
+}
+
+tr:nth-child(odd) {
+    background-color: var(--clr-accent);
 }
