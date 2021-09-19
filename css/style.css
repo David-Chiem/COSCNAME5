@@ -178,3 +178,11 @@ tr:nth-child(even) {
 tr:nth-child(odd) {
     background-color: var(--clr-accent);
 }
+
+button {
+    background-color: var(--clr-discrete);
+    color: var(--clr-dark);
+    border-radius: 0.3rem;
+    padding: 0.5rem;
+    font-weight: bold;
+}
