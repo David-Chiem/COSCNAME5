@@ -144,6 +144,10 @@ footer {
     list-style: "-";
 }
 
+.circle li {
+    list-style: circle;
+}
+
 .industry-data img {
     border-radius: 0.3rem;
 }
@@ -185,4 +189,9 @@ button {
     border-radius: 0.3rem;
     padding: 0.5rem;
     font-weight: bold;
+}
+
+.tools li {
+    width: fit-content;
+    padding-top: 1rem;
 }
